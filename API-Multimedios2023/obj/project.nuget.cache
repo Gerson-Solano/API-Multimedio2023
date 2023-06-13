@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qCEyIS1MGHmmlJFg44PxDohxLlpR/XrCzWrOnPe3HW88oNK63f4mny/iFS+I9X0fh6Mkn+EiPgWTwJ7d2wdtjA==",
+  "dgSpecHash": "QmzyUNhUnDpBDPEuN/aa8+sbwZIH7aPdt341fLBXyMjHEpYVNxCwkJefKN3UJcjpcBLZ5y+AaJvNPNFutk8aXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+  "projectFilePath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ISAAC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ISAAC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

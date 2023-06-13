@@ -12,5 +12,6 @@ namespace API_Multimedios2023.Data
 
         }
         public DbSet<Models.user> user { get; set; }
+        public DbSet<Models.roles> roles { get; set; }
     }
 }

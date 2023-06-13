@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {}
+    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {
+    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+        "projectUniqueName": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
         "projectName": "API-Multimedios2023",
-        "projectPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+        "projectPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
         "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-MULTI_2023\\API-Multimedios2023\\API-Multimedios2023\\obj\\",
+        "outputPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",

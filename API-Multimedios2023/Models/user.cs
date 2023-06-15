@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_Multimedios2023.Models
 {
@@ -12,6 +13,8 @@ namespace API_Multimedios2023.Models
         public string Email { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+
+        [ForeignKey("roles")]
         public int idRol { get; set; }
         public DateTime CreatedAt { get; set; }
         public int Enabled { get; set; }

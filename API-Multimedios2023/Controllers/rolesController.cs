@@ -1,6 +1,7 @@
 ﻿using API_Multimedios2023.Data;
 using API_Multimedios2023.Models;
 using Microsoft.AspNetCore.Mvc;
+using MySqlConnector;
 
 namespace API_Multimedios2023.Controllers
 {
@@ -42,23 +43,45 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpDelete("{idRol}")]
-        public void DeleteRol(int idRol)
+        public string DeleteRol(int idRol)
         {
             var temp = this.dbContext.roles.Find(idRol);
 
             if (temp != null)
             {
-                this.dbContext.Remove(temp);
-                this.dbContext.SaveChanges();
+                try
+                {
+                    this.dbContext.Remove(temp);
+                    this.dbContext.SaveChanges();
+                    return "Deleted";
+                }
+                catch (Exception ex)
+                {
+                    return "Error: " + ex.Message;
+                }   
             }
+            return "idRol: "+idRol+", Not Found";
         }
 
         [HttpPut("updateRol")]
-        public void UpdateRol(roles Roles)
+        public string UpdateRol(roles Roles)
         {
-            Roles.UpdatedAt = DateTime.Now;
-            this.dbContext.Update(Roles);
-            this.dbContext.SaveChanges();
+            if (this.dbContext.roles.Find(Roles.IdRol) != null)
+            {
+                try
+                {
+                    Roles.UpdatedAt = DateTime.Now;
+                    this.dbContext.Update(Roles);
+                    this.dbContext.SaveChanges();
+                    return "Updated";
+                }
+                catch (Exception ex)
+                {
+                    return "Error: " + ex.Message;
+                }
+                
+            }
+            return "idRol: " + Roles.IdRol + ", Not Found";
         }
     }
 }

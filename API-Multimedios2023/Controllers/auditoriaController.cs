@@ -36,7 +36,7 @@ namespace API_Multimedios2023.Controllers
         [HttpPut("createAuditoria")]
         public void CreateAuditoria(auditoria au)
         {
-            au.CreatedAt = DateTime.Now;
+            au.CreateDate = DateTime.Now;
             this.dbContext.Add(au);
             this.dbContext.SaveChanges();
         }

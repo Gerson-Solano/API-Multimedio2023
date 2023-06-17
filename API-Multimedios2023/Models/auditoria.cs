@@ -15,7 +15,7 @@ namespace API_Multimedios2023.Models
         public int IdMenu { get; set; }
         [ForeignKey("user")]
         public int IdUser { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreateDate { get; set; }
 
     }
 }

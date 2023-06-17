@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API_Multimedios2023.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+    [ApiControlle
+    [Route("[controller]")]r]
     public class controllerController : Controller
     {
         //variable para manejar la referencia de nuestro contexto

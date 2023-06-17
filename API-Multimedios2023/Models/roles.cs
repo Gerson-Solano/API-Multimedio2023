@@ -10,7 +10,7 @@ namespace API_Multimedios2023.Models
         public int IdRol { get; set; }
         public string NameRol { get; set; }
 
-        //[ForeignKey("menu")]
+        [ForeignKey("menu")]
         public int IdMenu { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }

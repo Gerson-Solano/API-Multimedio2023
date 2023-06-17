@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {}
+    "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {
+    "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+        "projectUniqueName": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
         "projectName": "API-Multimedios2023",
-        "projectPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
-        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\obj\\",
+        "projectPath": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

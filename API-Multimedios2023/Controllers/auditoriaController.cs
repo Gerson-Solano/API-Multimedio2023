@@ -26,9 +26,9 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpGet("{idAuditoria}")]
-        public auditoria GetAuditoria(int idAudi)
+        public auditoria GetAuditoria(int idAuditoria)
         {
-            var temp = this.dbContext.auditoria.Find(idAudi);
+            var temp = this.dbContext.auditoria.Find(idAuditoria);
             return temp;
         }
 
@@ -42,9 +42,9 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpDelete("{idAuditoria}")]
-        public string DeleteAuditoria(int idAudi)
+        public string DeleteAuditoria(int idAuditoria)
         {
-            var temp = this.dbContext.auditoria.Find(idAudi);
+            var temp = this.dbContext.auditoria.Find(idAuditoria);
 
             if (temp != null)
             {
@@ -59,7 +59,7 @@ namespace API_Multimedios2023.Controllers
                     return "Error: " + ex.Message;
                 }
             }
-            return "ID Auditoria: " + idAudi + ", Not Found";
+            return "ID Auditoria: " + idAuditoria + ", Not Found";
         }
 
         [HttpPut("updateAuditoria")]

@@ -26,9 +26,9 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpGet("{idController}")]
-        public controller GetController(int idControler)
+        public controller GetController(int idController)
         {
-            var temp = this.dbContext.controller.Find(idControler);
+            var temp = this.dbContext.controller.Find(idController);
             return temp;
         }
 

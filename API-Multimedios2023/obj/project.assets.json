@@ -3511,19 +3511,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mauri\\.nuget\\packages\\": {}
+    "C:\\Users\\ISAAC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+      "projectUniqueName": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
       "projectName": "API-Multimedios2023",
-      "projectPath": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
-      "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-      "outputPath": "D:\\UCR\\Cuarto Año\\Multimedios\\API-Multimedio2023\\API-Multimedios2023\\obj\\",
+      "projectPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\API-Multimedios2023.csproj",
+      "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ISAAC\\Documents\\GitHub\\API-Nodejs\\API-Multimedio2023\\API-Multimedios2023\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3581,7 +3581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -63,23 +63,10 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpPut("updateAuditoria")]
-        public string UpdateAuditoria(auditoria au)
+        public void UpdateAuditoria(auditoria au)
         {
-            if (this.dbContext.auditoria.Find(au.IdAuditoria) != null)
-            {
-                try
-                {
-                    this.dbContext.Update(au);
-                    this.dbContext.SaveChanges();
-                    return "Updated";
-                }
-                catch (Exception ex)
-                {
-                    return "Error: " + ex.Message;
-                }
-
-            }
-            return "ID Auditoria: " + au.IdAuditoria + ", Not Found";
+            this.dbContext.Update(au);
+            this.dbContext.SaveChanges();
         }
     }
 }

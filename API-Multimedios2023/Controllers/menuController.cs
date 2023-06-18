@@ -65,24 +65,13 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpPut("updateMenu")]
-        public string UpdateMenu(menu Menu)
+        public void UpdateMenu(menu Menu)
         {
-            if (this.dbContext.menu.Find(Menu.IdMenu) != null)
-            {
-                try
-                {
-                    Menu.UpdatedAt = DateTime.Now;
-                    this.dbContext.Update(Menu);
-                    this.dbContext.SaveChanges();
-                    return "Updated";
-                }
-                catch (Exception ex)
-                {
-                    return "Error: " + ex.Message;
-                }
 
-            }
-            return "ID Menu: " + Menu.IdMenu + ", Not Found";
+            Menu.UpdatedAt = DateTime.Now;
+            this.dbContext.Update(Menu);
+            this.dbContext.SaveChanges();
+
         }
     }
 }

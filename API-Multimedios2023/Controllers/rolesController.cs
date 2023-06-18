@@ -58,30 +58,17 @@ namespace API_Multimedios2023.Controllers
                 catch (Exception ex)
                 {
                     return "Error: " + ex.Message;
-                }   
+                }
             }
-            return "idRol: "+idRol+", Not Found";
+            return "idRol: " + idRol + ", Not Found";
         }
 
         [HttpPut("updateRol")]
-        public string UpdateRol(roles Roles)
+        public void UpdateRol(roles Roles)
         {
-            if (this.dbContext.roles.Find(Roles.IdRol) != null)
-            {
-                try
-                {
-                    Roles.UpdatedAt = DateTime.Now;
-                    this.dbContext.Update(Roles);
-                    this.dbContext.SaveChanges();
-                    return "Updated";
-                }
-                catch (Exception ex)
-                {
-                    return "Error: " + ex.Message;
-                }
-                
-            }
-            return "idRol: " + Roles.IdRol + ", Not Found";
+            Roles.UpdatedAt = DateTime.Now;
+            this.dbContext.Update(Roles);
+            this.dbContext.SaveChanges();
         }
     }
 }

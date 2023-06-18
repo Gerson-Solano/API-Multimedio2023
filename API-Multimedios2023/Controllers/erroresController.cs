@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API_Multimedios2023.Controllers
 {
-    
+
 
     [ApiController]
     [Route("[controller]")]
@@ -65,23 +65,12 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpPut("updateError")]
-        public string UpdateError(error Errores)
+        public void UpdateError(error Errores)
         {
-            if (this.dbContext.error.Find(Errores.IdErrores) != null)
-            {
-                try
-                {
-                    this.dbContext.Update(Errores);
-                    this.dbContext.SaveChanges();
-                    return "Updated";
-                }
-                catch (Exception ex)
-                {
-                    return "Error: " + ex.Message;
-                }
 
-            }
-            return "ID Error: " + Errores.IdErrores + ", Not Found";
+            this.dbContext.Update(Errores);
+            this.dbContext.SaveChanges();
+
         }
     }
 }

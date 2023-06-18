@@ -64,24 +64,13 @@ namespace API_Multimedios2023.Controllers
         }
 
         [HttpPut("updateController")]
-        public string UpdateController(controller Controller)
+        public void UpdateController(controller Controller)
         {
-            if (this.dbContext.controller.Find(Controller.IdController) != null)
-            {
-                try
-                {
-                    Controller.UpdatedAt = DateTime.Now;
-                    this.dbContext.Update(Controller);
-                    this.dbContext.SaveChanges();
-                    return "Updated";
-                }
-                catch (Exception ex)
-                {
-                    return "Error: " + ex.Message;
-                }
 
-            }
-            return "ID Controller: " + Controller.IdController + ", Not Found";
+            Controller.UpdatedAt = DateTime.Now;
+            this.dbContext.Update(Controller);
+            this.dbContext.SaveChanges();
+
         }
     }
 }
